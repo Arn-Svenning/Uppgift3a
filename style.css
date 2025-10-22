@@ -1,0 +1,70 @@
+/* LTU CSS STYLESHEET
+=====================*/
+
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body{
+    font-family: Candara, Verdana, sans-serif;
+}
+
+/* TABLES */
+
+/*en class selector för båda tabellerna (eftersom det var så det såg ut i html filen)*/
+.table1{
+    background-color: #ffcccc; 
+    border-style: solid; /* Använder en tunn border på båda tabellerna som är svart */
+    border-width:thin;
+    border-color: black;
+}
+.table1 caption{
+    font-weight:bolder;
+    text-align: left;
+}
+
+
+.table2{
+    background-color: #ffcc99;
+    border-style: solid;
+    border-width:thin;
+    border-color: black;
+}
+.table2 caption{
+    font-weight:bolder;
+    text-align: left;
+}
+/*Specifikt för th taggen i tabellen, det ska vara en svar border undertill och texten ska vara till vänster*/
+.table2 th{ 
+    text-align: left;
+    border-bottom: solid black;
+    border-width: thin;
+}
+
+/* LINKS */
+
+/*Detta är en id selector för en länk med röd hover */
+#redLinkHover:hover{
+    color: red;
+}
+
+/* SPECIAL TEXT */
+
+/*Grön text id för texten längst ner i html dokumentet*/
+#greenText{
+    color: #009900;
+} 
+
+/* LISTS */ 
+.list{
+    list-style-type: none;
+}
+
+/*Bakgrundsfärg och specialfärg på texten i tabell 2*/
+.foot{
+    background-color: black;
+    color: white;
+}
